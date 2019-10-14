@@ -1,0 +1,102 @@
+.heade{
+    height: 42px;
+    overflow: hidden;
+    position: fixed;
+    top:0px;
+    padding: 4px 15px;
+    width: 100%;
+    z-index: 2;
+    background-color: #fff;
+    z-index:999;
+    .heade-left{
+        display: inline-block;
+        width: 24px;
+        height: 100%;
+        float: left;
+        clear: both;
+        line-height: 62px;
+        margin-right: 6px;
+        img{
+            width: 100%;
+            height: auto;
+        }
+    }
+    .heade-cont{
+        position: absolute;
+        left: 15px;
+        width: 250px;
+        overflow: hidden;
+        line-height: 1.5;
+        .isVip{
+            position: absolute;
+            width: 9px;
+            height: 9px;
+            border-radius: 50%;
+            background-color: #FFCC00;
+            font-size: 12px;
+            color: #fff;
+            text-align: center;
+            line-height: 8px;
+            bottom: 0px;
+            left: 30px;
+            border: 1.5px #fff solid;
+        }
+        .portrait{
+            width: 40px;
+            height: 40px;
+            overflow: hidden;
+            border-radius: 50%;
+            margin-right: 12px;
+            // border:1px #999 solid;
+            display: inline-block;
+            vertical-align: top;
+            background-color: #FFCC00;
+            float: left;
+            img{
+                width: 100%;
+                height: 100%;
+            }
+        }
+        .userName,.userTage{
+            display: inline-block;
+            width: 150px;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        } 
+        .userName{
+            font-size: .14rem;
+            color: #403F4C;
+        }
+        .lin{
+            line-height: 40px;
+        }
+        .userTage{
+           
+            font-size: .12rem;
+            color: #69707F;
+        }
+    }
+    .heade-reight{
+        overflow: hidden;
+        float:right;
+        position: relative;
+        top:9px;
+        .focus{
+            display: inline-block;
+            vertical-align: top;
+            width: 48px;
+            height: 22px;
+            text-align: center;
+            line-height: 22px;
+            color: #BBBBBB;
+            font-size: 12px;
+            background:rgba(245,245,245,1);
+        }
+        .focusActive{
+            color: #1D1E2C;
+            background:rgba(255,204,0,1);
+            margin-left:10px; 
+        }
+    }
+}
