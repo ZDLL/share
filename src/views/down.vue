@@ -129,7 +129,7 @@ export default {
                 // -moz-transition:All 2s ease-in-out;
                 // -o-transition:All 2s ease-in-out;
 
-                 transition:All 0.5s linear;
+                transition:All 0.5s linear;
                 -webkit-transition:All 0.5s linear;
                 -moz-transition:All 0.5s linear;
                 -o-transition:All 0.5s linear;

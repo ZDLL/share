@@ -46,11 +46,11 @@ let sendPostFunc = function(url,payload){
   });
   return new Promise((res,rej)=>{
     axios({
-      method: 'get',
+      method:'get',
       url: url,
       params:payload
     }).then(data=>{
-      if(data.data.code !=10000){
+      if(data.data.code !=10000 && data.data.status !=200){
         router.push({path: "/err",query:{msg:data.data.msg}})
         return;
       }

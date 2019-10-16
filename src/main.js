@@ -8,11 +8,14 @@ import VueAwesomeSwiper from 'vue-awesome-swiper'
 import 'swiper/dist/css/swiper.css';
 import VueVideoPlayer from 'vue-video-player'
 import 'video.js/dist/video-js.css'
+// import echarts from 'echarts'
+
+
 
 Vue.use(VueVideoPlayer)
 Vue.use(VueAwesomeSwiper)
+// Vue.prototype.$echarts = echarts
 Vue.config.productionTip = false
-
 new Vue({
   router,
   store,

@@ -42,5 +42,15 @@ export default new Router({
       name: 'videoShare',
       component:()=>import('./views/videoShare.vue')
     },
+    {
+      path: '/contrastShare',
+      name: 'contrastShare',
+      component:()=>import('./views/contrastShare.vue')
+    },
+    {
+      path: '/comparAndroid',
+      name: 'comparAndroid',
+      component:()=>import('./views/comparAndroid.vue')
+    },
   ]
 })

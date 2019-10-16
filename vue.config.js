@@ -31,6 +31,14 @@ module.exports = {
                 // pathRewrite: {
                 //     '^/backend': '/'
                 // }
+            },
+            '/index': {
+                target: "http://192.168.3.207:8081",
+                ws: true,
+                changOrigin: true,
+                // pathRewrite: {
+                //     '^/backend': '/'
+                // }
             }
         }, // 设置代理
         before: app => { }
